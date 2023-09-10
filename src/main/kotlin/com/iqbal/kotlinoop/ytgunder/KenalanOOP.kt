@@ -1,4 +1,4 @@
-package com.iqbal.kotlinoop
+package com.iqbal.kotlinoop.ytgunder
 
 /*
     Pada contoh pertama OOP kita akan menerapkannya pada:

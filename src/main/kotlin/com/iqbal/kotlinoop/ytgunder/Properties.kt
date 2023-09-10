@@ -1,4 +1,4 @@
-package com.iqbal.kotlinoop
+package com.iqbal.kotlinoop.ytgunder
 
 fun main() {
     // Setter ( Untuk memberikan nilai ) (disini kita memberikan nilai untuk propertynya)
