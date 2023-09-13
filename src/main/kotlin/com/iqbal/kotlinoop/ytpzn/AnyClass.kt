@@ -10,7 +10,7 @@ fun main() {
     val laptop = Laptop("Acer")
     println(laptop.toString())  // Function toString () bawaah kelas Any
     println(laptop.hashCode())  // Function hashCode () bawaah kelas Any
-    println(laptop.equals())  // Function equals () bawaah kelas Any
+    //println(laptop.equals())  // Function equals () bawaah kelas Any
 
     val smartphone = Smartphone("Redmi")
     println(smartphone.brand)
