@@ -5,6 +5,7 @@ fun main() {
     println(contohLambda("Iqbal"))
     println(contohLambdaDua("Iqbal", "Rivaldi"))
     println(contohLamndaTiga("Messi", 34, true))
+    println(LoginCallback(true))
 
     // lambda references
     println(resultReferencesLmabda)
@@ -14,6 +15,10 @@ fun main() {
 // Membuat Lambda pake it kalau cuman satu parameter
 val contohLambda: (String) -> String = {
     it.toUpperCase()
+}
+
+val LoginCallback: (Boolean) -> Boolean  = { login: Boolean ->
+    login
 }
 
 val contohLambdaDua: (String, String) -> String = { firstName: String, lastName: String ->
