@@ -21,6 +21,10 @@ val LoginCallback: (Boolean) -> Boolean  = { login: Boolean ->
     login
 }
 
+val LatihanBuatLambda: (String) -> String = {
+    it.toUpperCase()
+}
+
 val contohLambdaDua: (String, String) -> String = { firstName: String, lastName: String ->
     var result = "$firstName $lastName"
     result
