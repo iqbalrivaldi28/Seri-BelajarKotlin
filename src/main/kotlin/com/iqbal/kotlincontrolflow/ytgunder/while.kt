@@ -4,6 +4,8 @@ fun main() {
     exampleWhile()
     println()
     exampleWhileTwo()
+    println()
+    exampleWhileThree()
 }
 
 fun exampleWhile(){
@@ -27,6 +29,19 @@ fun exampleWhileTwo(){
             angka++
         }
     }
+}
 
+fun exampleWhileThree(){
+    var angka = 1
 
+     while (angka < 10) {
+
+         if (angka % 2 == 0){
+             println("Angka $angka adalah Genap")
+         } else {
+             println("Angka $angka adalah Ganjil")
+         }
+
+         angka++
+     }
 }
