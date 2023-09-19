@@ -17,18 +17,22 @@ fun main() {
 
 // Parent Class
 open class Employee(val name: String) {
-    fun sayHello(name: String){
+    open fun sayHello(name: String){
         println("Hello $name, my name is ${this.name}")
     }
 }
 
 // Child Class 1
 class Manager(name: String) : Employee(name){
-
+    override fun sayHello(name: String){
+        println("Hello $name, my name is Maneger ${this.name}")
+    }
 }
 
 // Child Class 2
 class VicePresident(name: String) : Employee(name){
-
+    override fun sayHello(name: String){
+        println("Hello $name, my name is Vice Prisident ${this.name}")
+    }
 }
 
